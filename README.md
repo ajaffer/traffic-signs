@@ -207,9 +207,9 @@ Network correctly has activations for inverted triangular shape
 
 | Visualization |  Image         	|     Characteristics	        					| 
 |:---------------------:|:---------------------:|:---------------------------------------------:| 
-|![alt text][image14]         			| Yield   									| activations on the inverted triangle
-|![alt text][image15]         			| Bumpy Road   									| activations on triangle + bump symbols 
-|![alt text][image16]         			| 20 km/h   									| wrong activations on triangle shape
-|![alt text][image17]         			| Road work   									| wrong activations Traffic_Sign_Classifier.ipynbon triangle shape
-|![alt text][image18]         			| 60 km/h   									| activations on circle + characters for number '60'
+|![alt text][image14]         			| Yield ![alt text][image4]   									| activations on the inverted triangle
+|![alt text][image15]         			| Bumpy road ![alt text][image5]   									| activations on triangle + bump symbols 
+|![alt text][image16]         			| 20 km/h ![alt text][image6]   									| wrong activations on triangle shape
+|![alt text][image17]         			| Road work ![alt text][image7]  									| wrong activations Traffic_Sign_Classifier.ipynbon triangle shape
+|![alt text][image18]         			| 60 km/h ![alt text][image8]   									| activations on circle + characters for number '60'
 
