@@ -44,7 +44,7 @@ The goals / steps of this project are the following:
 
 ####1. Provide a Writeup / README 
 
-This is it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+This is it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/my_project.ipynb)
 
 ###Data Set Summary & Exploration
 
@@ -206,6 +206,6 @@ Network correctly has activations for inverted triangular shape
 |![alt text][image14]         			| Yield   									| activations on the inverted triangle
 |![alt text][image15]         			| Bumpy Road   									| activations on triangle + bump symbols 
 |![alt text][image16]         			| 20 km/h   									| wrong activations on triangle shape
-|![alt text][image17]         			| Road work   									| wrong activations on triangle shape
+|![alt text][image17]         			| Road work   									| wrong activations Traffic_Sign_Classifier.ipynbon triangle shape
 |![alt text][image18]         			| 60 km/h   									| activations on circle + characters for number '60'
 
