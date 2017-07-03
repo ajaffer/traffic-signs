@@ -44,7 +44,7 @@ The goals / steps of this project are the following:
 
 ####1. Provide a Writeup / README 
 
-This is it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/my_project.ipynb)
+This is it! and here is a link to my [project code](https://github.com/ajaffer/traffic-signs/blob/master/my_project.ipynb)
 
 ###Data Set Summary & Exploration
 
