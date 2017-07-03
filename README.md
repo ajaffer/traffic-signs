@@ -127,8 +127,8 @@ I tried with a few learning rates, the different results are below:
 ####4.Approach taken 
 
 My final model results were:
-* training set accuracy of 99.0
-* validation set accuracy of 93.7 
+* training set accuracy of 99.7
+* validation set accuracy of 94.6 
 * test set accuracy of 90.2
 
 * What architecture was chosen? LeNet Architecture
