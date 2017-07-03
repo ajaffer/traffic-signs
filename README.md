@@ -143,9 +143,16 @@ Since the model's accuracy for all training, validation and test are high, we do
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+| Image			        |     Name	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| ![alt text][image4]      		| Yield   									| 
+| ![alt text][image5]      		| Bumpy Road   									| 
+| ![alt text][image6]      		| 20 km/h   									| 
+| ![alt text][image7]      		| Road work   									| 
+| ![alt text][image8]      		| 60 km/h   									| 
 
+
+ 
 The third and fourth images might be difficult to classify because the training data for these classes of images are lower in number. 
 
 ####2. Discuss the model's predictions on these new traffic signs and 
@@ -182,16 +189,13 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 Below is a visualization of the 5 softmax probabilities
 
-Yield
-![alt text][image9]
-Bumpy road
-![alt text][image10]
-20 km/h
-![alt text][image11]
-Road work
-![alt text][image12]
-60 km/h
-![alt text][image13]
+| softmax probabilities         	|     Image	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| ![alt text][image9]         			| Yield   									| 
+| ![alt text][image10]         			| Bumpy road   									| 
+| ![alt text][image11]         			| 20 km/h   									| 
+| ![alt text][image12]         			| Road work   									| 
+| ![alt text][image13]         			| 60 km/h   									| 
 
 ### Visualizing the Neural Network 
 
