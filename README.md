@@ -162,8 +162,8 @@ Here are the results of the prediction:
 |:---------------------:|:---------------------------------------------:| 
 | Yield      		| Yield   									| 
 | Bumpy road     			| Bumpy road 										|
-| 20 km/h					| General Caution											|
-| Road work	      		| Go straight or left					 				|
+| 20 km/h					| Road work											|
+| Road work	      		| Dangerous curve to the right					 				|
 | 60 km/h			| 60 km/h      							|
 
 
@@ -178,14 +178,14 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 | 1.00     				| Bumpy road 										|
 | 0.00					| 20 km/h											|
 | 0.00	      			| Road work					 				|
-| 0.98				    | 60 km/h      							|
+| 1.00				    | 60 km/h      							|
 
 Below is a visualization of the 5 softmax probabilities
 
 Yield
 ![alt text][image9]
 Bumpy road
-![alt text][image10]
+![alt text][image10]{:height="50%" width="50%"}
 20 km/h
 ![alt text][image11]
 Road work
