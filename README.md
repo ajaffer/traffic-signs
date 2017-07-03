@@ -191,11 +191,11 @@ Below is a visualization of the 5 softmax probabilities
 
 | softmax probabilities         	|     Image	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| ![alt text][image9]         			| Yield   									| 
-| ![alt text][image10]         			| Bumpy road   									| 
-| ![alt text][image11]         			| 20 km/h   									| 
-| ![alt text][image12]         			| Road work   									| 
-| ![alt text][image13]         			| 60 km/h   									| 
+| ![alt text][image9]         			| Yield ![alt text][image4]    									| 
+| ![alt text][image10]         			| Bumpy road ![alt text][image5]   									| 
+| ![alt text][image11]         			| 20 km/h ![alt text][image6]   									| 
+| ![alt text][image12]         			| Road work ![alt text][image7]  									| 
+| ![alt text][image13]         			| 60 km/h ![alt text][image8]   									| 
 
 ### Visualizing the Neural Network 
 
