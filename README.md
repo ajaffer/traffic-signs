@@ -185,7 +185,7 @@ Below is a visualization of the 5 softmax probabilities
 Yield
 ![alt text][image9]
 Bumpy road
-![alt text][image10]{:height="50%" width="50%"}
+![alt text][image10]
 20 km/h
 ![alt text][image11]
 Road work
