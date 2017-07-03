@@ -42,13 +42,9 @@ The goals / steps of this project are the following:
 ---
 ###Writeup / README
 
-####1. Provide a Writeup / README 
-
 This is it! and here is a link to my [project code](https://github.com/ajaffer/traffic-signs/blob/master/my_project.ipynb)
 
 ###Data Set Summary & Exploration
-
-####1. Basic summary of the data set. 
 
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
@@ -80,12 +76,9 @@ The above images show that the data set is unbalanced.
 ###Design and Test a Model Architecture
 
 ####1. Preprocessing of the image data.
-// What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
-
 I chose not to convert the images to gray-scale images since I was getting good results with color images. 
 
 I normalized the data by making it zero mean and equal standard deviation, that will help converging quicker.
-
 
 ####2. Model architecture description
 
@@ -112,7 +105,6 @@ My final model consisted of the following layers:
 
 
 ####3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
-
 To train the model, I used the Adam optimizer, I used a batch size of 128, 20 epochs and learning rate of 0.003
 
 I tried with a few learning rates, the different results are below:
@@ -155,13 +147,7 @@ Here are five German traffic signs that I found on the web:
  
 The third and fourth images might be difficult to classify because the training data for these classes of images are lower in number. 
 
-####2. Discuss the model's predictions on these new traffic signs and 
-compare the results to predicting on the test set. 
-At a minimum, discuss what the predictions were, 
-the accuracy on these new predictions, 
-and compare the accuracy to the accuracy on the test set 
-(OPTIONAL: Discuss the results in more detail as described in the 
-"Stand Out Suggestions" part of the rubric).
+####2. Model's predictions 
 
 Here are the results of the prediction:
 
@@ -198,12 +184,7 @@ Below is a visualization of the 5 softmax probabilities
 | ![alt text][image13]         			| 60 km/h ![alt text][image8]   									| 
 
 ### Visualizing the Neural Network 
-
-What characteristics did the neural network use to make classifications?
-
 The neural network has the following activations for these images:
-
-Network correctly has activations for inverted triangular shape 
 
 | Visualization |  Image         	|     Characteristics	        					| 
 |:---------------------:|:---------------------:|:---------------------------------------------:| 
