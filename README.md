@@ -46,7 +46,7 @@ This is it! and here is a link to my [project code](https://github.com/ajaffer/t
 
 ###Data Set Summary & Exploration
 
-I used the pandas library to calculate summary statistics of the traffic
+I used the python library functions to calculate summary statistics of the traffic
 signs data set:
 
 * The size of training set is 34799
