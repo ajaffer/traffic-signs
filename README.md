@@ -124,22 +124,22 @@ My final model results were:
 * test set accuracy of 93.2
 
 * What was the first architecture that was tried and why was it chosen? 
-I choose the LeNet Architecture, as works well with similar types of images.
+I choose the LeNet Architecture, as works well with similar types of images. 
 
 * What were some problems with the initial architecture? 
-The accuracy levels were low for the validation set.
+The accuracy levels were low for the validation set. Initially I did not choose RGB images and did not apply the historgram equalization. I was getting low accuracy for the web images.
 
 *How was the architecture adjusted and why was it adjusted? 
-I added dropout to the Convnet layers 1 and 2, but it seemed to decrease the accuracy very slightly so I ended up not using it in my final Neural Nets.
+I try with different values for dropout to the Convnet layers 1  and then in layer 2 as well. Overall dropout seemed to decrease the accuracy very slightly so I ended up not using it in my final Neural Nets.
 
 * Which parameters were tuned? How were they adjusted and why? 
 I tried with a few different learning rates, going from 0.001 to 0.009, I settled on 0.003. I also increased the Epochs to 20, that got me closer to my desired accuracy levels. 
 
 * What are some of the important design choices and why were they chosen?
-While making choices for parameters and layers my end goal was to get a high validation and testing accuracy.  
+While making choices for parameters and layers my end goal was to get a high validation and testing accuracy. The greatest accuracy gains were attained by using the Contrast Limited Adaptive Histogram Equalization (CLAHE)  
 
 * What architecture was chosen? 
-LeNet Architecture
+LeNet Architecture, but I also I researched a neural network inspired by this paper: "A Committee of Neural Networks for Traffic Sign Classification" http://people.idsia.ch/~juergen/ijcnn2011.pdf I created three layers of convnets, with 100, 150 and 250 layers each. This neural network works very good, the accuracy for training, validation and test were: Validation Accuracy = 0.957 Training Accuracy = 0.996 Test Accuracy = 0.942. The only issues I have with this network is that it becomes really slow to run, due to large depth of the convnet layers. I am not using a GPU, so this network runs very slow on my machine. I finally chose LeNet as it was giving very good accuracy results as well, only slightly behind this network. 
 
 * Why did you believe it would be relevant to the traffic sign application? 
 LeNet was originally designed for handwriting and machine-printed character recognition. Many traffic signs contains features that have machine-printed characters and symbols. LeNet seems like a logical choice for these kind of images.    
