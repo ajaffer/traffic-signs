@@ -123,8 +123,27 @@ My final model results were:
 * validation set accuracy of 94.6 
 * test set accuracy of 90.2
 
-* What architecture was chosen? LeNet Architecture
-* Why did you believe it would be relevant to the traffic sign application? LeNet was originally designed for handwriting and machine-printed character recognition. Many traffic signs contains features that have machine-printed characters and symbols. LeNet seems like a logical choice for these kind of images.    
+* What was the first architecture that was tried and why was it chosen? 
+I choose the LeNet Architecture, as works well with similar types of images.
+
+* What were some problems with the initial architecture? 
+The accuracy levels were low for the validation set.
+
+*How was the architecture adjusted and why was it adjusted? 
+I added dropout to the Convnet layers 1 and 2, but it seemed to decrease the accuracy very slightly so I ended up not using it in my final Neural Nets.
+
+* Which parameters were tuned? How were they adjusted and why? 
+I tried with a few different learning rates, going from 0.001 to 0.009, I settled on 0.003. I also increased the Epochs to 20, that got me closer to my desired accuracy levels. 
+
+* What are some of the important design choices and why were they chosen?
+While making choices for parameters and layers my end goal was to get a high validation and testing accuracy.  
+
+* What architecture was chosen? 
+LeNet Architecture
+
+* Why did you believe it would be relevant to the traffic sign application? 
+LeNet was originally designed for handwriting and machine-printed character recognition. Many traffic signs contains features that have machine-printed characters and symbols. LeNet seems like a logical choice for these kind of images.    
+
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
 Since the model's accuracy for all training, validation and test are high, we do not see any evidence of over or under fitting. 
 
