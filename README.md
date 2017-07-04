@@ -187,10 +187,10 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1.00         			| Yield   									| 
-| 1.00     				| Bumpy road 										|
-| 0.00					| 20 km/h											|
-| 0.00	      			| Road work					 				|
-| 1.00				    | 60 km/h      							|
+| 0.98     				| Bumpy road 										|
+| 0.22					| 20 km/h											|
+| 0.93	      			| Road work					 				|
+| 0.99				    | 60 km/h      							|
 
 Below is a visualization of the 5 softmax probabilities
 
@@ -209,7 +209,7 @@ The neural network has the following activations for these images:
 |:---------------------:|:---------------------:|:---------------------------------------------:| 
 |![alt text][image14]         			| Yield ![alt text][image4]   									| activations on the inverted triangle
 |![alt text][image15]         			| Bumpy road ![alt text][image5]   									| activations on triangle + bump symbols 
-|![alt text][image16]         			| 20 km/h ![alt text][image6]   									| wrong activations on triangle shape
-|![alt text][image17]         			| Road work ![alt text][image7]  									| wrong activations Traffic_Sign_Classifier.ipynbon triangle shape
+|![alt text][image16]         			| 20 km/h ![alt text][image6]   									| activations on circular shape
+|![alt text][image17]         			| Road work ![alt text][image7]  									| activations triangle shape
 |![alt text][image18]         			| 60 km/h ![alt text][image8]   									| activations on circle + characters for number '60'
 
