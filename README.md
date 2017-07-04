@@ -123,6 +123,13 @@ My final model results were:
 * validation set accuracy of 95.5 
 * test set accuracy of 93.2
 
+| Set         		|     Validate Accuracy	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| Training         		| 99.8%  							| 
+| Validation         		| 95.5%  							| 
+| Test         		| 93.2%  							| 
+ 
+
 * What was the first architecture that was tried and why was it chosen? 
 I choose the LeNet Architecture, as works well with similar types of images. 
 
