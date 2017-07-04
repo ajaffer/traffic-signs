@@ -174,8 +174,8 @@ Here are the results of the prediction:
 |:---------------------:|:---------------------------------------------:| 
 | Yield      		| Yield   									| 
 | Bumpy road     			| Bumpy road 										|
-| 20 km/h					| Road work											|
-| Road work	      		| Dangerous curve to the right					 				|
+| 20 km/h					| 20 km/h 											|
+| Road work	      		| Road work					 				|
 | 60 km/h			| 60 km/h      							|
 
 
