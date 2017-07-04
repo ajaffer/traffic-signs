@@ -76,7 +76,7 @@ The above images show that the data set is unbalanced.
 ###Design and Test a Model Architecture
 
 ####1. Preprocessing of the image data.
-I chose not to convert the images to gray-scale images since I was getting good results with color images. 
+I chose to use gray scale and then Contrast Limited Adaptive Histogram Equalizations (CLAHE). This alone made my accuracy increase, and gave me great results on my web images. Without CLAHE I was getting 3/5 web images correctly recognized, and with it I get 5/5 recognized correctly.  
 
 I normalized the data by making it zero mean and equal standard deviation, that will help converging quicker.
 
@@ -119,9 +119,9 @@ I tried with a few learning rates, the different results are below:
 ####4.Approach taken 
 
 My final model results were:
-* training set accuracy of 99.7
-* validation set accuracy of 94.6 
-* test set accuracy of 90.2
+* training set accuracy of 99.8
+* validation set accuracy of 95.5 
+* test set accuracy of 93.2
 
 * What was the first architecture that was tried and why was it chosen? 
 I choose the LeNet Architecture, as works well with similar types of images.
