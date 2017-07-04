@@ -131,7 +131,7 @@ My final model results were:
 I choose the LeNet Architecture, as works well with similar types of images. 
 
 * What were some problems with the initial architecture? 
-The accuracy levels were low for the validation set. Initially I did not choose RGB images and did not apply the historgram equalization. I was getting low accuracy for the web images.
+The accuracy levels were low for the validation set. Initially I choose to use RGB images and did not apply the historgram equalization. I was getting low accuracy for the web images.
 
 * How was the architecture adjusted and why was it adjusted? 
 I try with different values for dropout to the Convnet layers 1  and then in layer 2 as well. Overall dropout seemed to decrease the accuracy very slightly so I ended up not using it in my final Neural Nets.
